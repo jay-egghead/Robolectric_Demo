@@ -24,7 +24,7 @@ public class MyActivityTest {
     @Test
     public void myActivityAppearsAsExpectedInitially() {
         assertThat(mActivity.mClickMeButton).hasText("Click");
-        assertThat(mActivity.mHelloWorldTextView).hasText("Hello world!");
+        assertThat(mActivity.mHelloWorldTextView).hasText("Hello!");
     }
 
     @Test
