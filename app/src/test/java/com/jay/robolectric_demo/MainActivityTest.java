@@ -34,6 +34,11 @@ public class MainActivityTest {
     private MainActivity activity;
 
     @Test
+    public void addition_isCorrect() throws Exception {
+        assertEquals(4, 2 + 2);
+    }
+
+    @Test
     public void shouldHaveHappySmiles() throws Exception {
         String hello = new MainActivity().getResources().getString(R.string.hello_world);
         assertThat(hello, equalTo("Hello world!"));
